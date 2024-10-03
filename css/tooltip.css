@@ -1,0 +1,19 @@
+.tooltip {
+  position: absolute;
+  padding: 4px 8px;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+
+.gallery {
+  position: relative;
+}
+
+.tooltip span::before {
+  content: "\A";
+  white-space: pre;
+}
